@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    color: white;
+    font-size: 36px;
+    margin: 5px;
+}
+#paperbutton{
+    border-radius: 60px;
+    border-color: aliceblue;
+    background-color: black;
+    padding: 20px;
+    margin: 5px;
+}
+#paperbutton:hover{
+    box-shadow: 0 8px 16px 0 rgba(201, 197, 197, 0.2), 0 6px 20px 0 rgba(221, 207, 207, 0.19);
+}
+#rockbutton:hover{
+    box-shadow: 0 8px 16px 0 rgba(201, 197, 197, 0.2), 0 6px 20px 0 rgba(177, 172, 172, 0.19);
+}
+#scissorbutton:hover{
+    box-shadow: 0 8px 16px 0 rgba(201, 197, 197, 0.2), 0 6px 20px 0 rgba(177, 172, 172, 0.19);
+}
+#scissorbutton{
+    border-radius: 60px;
+    border-color: aliceblue;
+    background-color: black;
+    padding: 20px;
+    margin: 5px;
+}
+#rockbutton{
+    border-radius: 60px;
+    border-color: aliceblue;
+    background-color: black;
+    padding: 20px;
+    margin: 5px;
+}
+#yourresult{
+    border-radius: 60px;
+    border-color: aliceblue;
+    background-color: black;
+    padding: 5px;
+    margin: 5px;
+}
+#computeresult{
+    border-radius: 60px;
+    border-color: aliceblue;
+    background-color: black;
+    padding: 5px;
+    margin: 5px;
+}
+#resetbutton{
+    margin: 5px;
+    font-size: 24px;
+}
+#resetbutton:hover{
+    color:rgb(255, 30, 0);
+    background-color: #fff;
+}
